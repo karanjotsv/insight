@@ -25,7 +25,7 @@ random.seed(99)
 # environment
 DEVICE = "cuda:0"
 # hugging face; for gated repo
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = ""
 
 
 def parse_generation(text):
